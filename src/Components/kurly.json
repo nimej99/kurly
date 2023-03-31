@@ -1,0 +1,28 @@
+{
+  "foods" : [
+  {
+    "filename":"food1.jpg",
+    "name":"[담꽃] 팥양갱 목함 선물세트(9개입)",
+    "price":"33,000",
+    "review":"96"
+  },
+  {
+    "filename":"food2.jpg",
+    "name":"[외할머니댁] 차돌된장밥",
+    "price":"5,900",
+    "review":"999"
+  },
+  {
+    "filename":"food3.jpg",
+    "name":"[고래사] 고래틴 고단백 소시지",
+    "price":"6,000",
+    "review":"999"
+  },
+  {
+    "filename":"food4.jpg",
+    "name":"[창화당] 고기궁중만두",
+    "price":"11,900",
+    "review":"999"
+  }
+  ]
+}

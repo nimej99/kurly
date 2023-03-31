@@ -1,0 +1,70 @@
+.wrap {
+    max-width:340px;
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.wrap > * {
+    width:100%;
+    display:block;
+}
+
+.wrap > *:not(h2, div) {
+    line-height:52px;
+    border:1px solid #e1e1e1;
+    margin-bottom:10px;
+    border-radius: 5px;
+}
+
+.wrap h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom:40px;
+}
+
+.wrap input {
+    box-sizing: border-box;
+    padding:0 15px;
+}
+
+.wrap > div {
+    display:flex;
+    justify-content: end;
+    font-size:14px;
+    color:#333;
+}
+
+.wrap > div span:first-child {
+    position:relative;
+    margin-right:20px;
+}
+.wrap > div span:first-child::after {
+    content:'';
+    display:block;
+    width:1px;
+    height:14px;
+    background:#333;
+
+    position:absolute;
+    right:-10px;
+    top:2px
+}
+
+.wrap input[type=submit] {
+    background:#5f0080;
+    color:#fff;
+    margin-top:30px;
+}
+
+.wrap input[type=submit],
+.wrap button {
+    font-size: 16px;
+    font-weight: 600;
+    border:1px solid #5f0080;
+}
+
+.wrap button {
+    background:none;
+    color:#5f0080;
+}

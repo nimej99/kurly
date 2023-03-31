@@ -1,0 +1,98 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#333;
+}
+
+.title {
+    text-align: center;
+    font-size:28px;
+    font-weight:500;
+    margin:100px 0 30px;
+}
+
+.product_wrap {
+    display:flex;
+    justify-content: space-between;
+    list-style:none;
+
+    width: 1050px;
+    margin: 0px auto;
+}
+
+.product_item {
+    width:calc(25% - 15px);
+}
+
+.product_img {
+    position:relative;
+    margin-bottom:16px;
+    overflow:hidden;
+}
+
+.product_img img {
+    display:block;
+    width:100%;
+    transform: scale(1);
+    transition:0.5s;
+    filter: blur(0);
+    opacity: 1;
+}
+
+.product_img:hover img {
+    transform: scale(1.1);
+    filter: blur(1px);
+    opacity: 0.5;
+}
+
+.product_img i {
+    display:block;
+
+    position:absolute;
+    right:15px;
+    bottom:15px;
+
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+
+    background: rgba(95, 0, 128, 0.5);
+    color:#fff;
+    text-align: center;
+    line-height:45px;
+    font-size:20px;
+}
+
+.name {
+    font-size:16px;
+    font-weight:400;
+    margin-bottom:10px;
+}
+
+.price {
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:8px;
+}
+
+.review {
+    font-size:12px;
+    font-weight:500;
+    color:#999;
+}
+
+.review i {
+    display:inline-block;
+    margin-right:2px;
+    transform: translateY(1px);
+}

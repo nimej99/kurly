@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.login{
+  width:340px;
+  margin:0 auto;
+  padding:50px 0px;
+}
+
+.login h2{
+  font-size: 20px;
+  text-align: center;
+  margin:50px 0px;
+}
+
+.login input{
+  width:340px;
+  height:54px;
+  margin-bottom:10px;
+  text-indent: 10px;
+  font-size: 14px;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 4px;
+}
+
+.login p:first-of-type{
+  margin-bottom:20px;
+}
+.login p a{
+  color:#333;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: -0.6px;
+}
+.login input[type=submit],
+.login input[type=button]{
+  border:none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.login input[type=submit]{
+  background: #5f0080;
+  color:#fff;
+}
+.login input[type=button]{
+  background: none;
+  color:#5f0080;
+  border: 1px solid #5f0080;
+}
